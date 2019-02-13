@@ -5,15 +5,22 @@ function cube() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 3);
 }
+
 function sin() {
  var num = document.getElementById("n2");
  num.value = Math.sin(num.value);
+
+function cuatro() {
+ var num = document.getElementById("n3");
+ num.value = Math.pow(num.value, 4);
+
 }
 </script>
 </head>
 <body>
  <h1>Calculadora de Andrés Delabat Parrilla </h1>
  Number:
+
  <p>
  <input type="text" id="n1">
  
@@ -21,6 +28,10 @@ function sin() {
  <p>
  <input type="text" id="n2">
  <button onclick="sin()"> sin(x) </button>
+ </p>
+<input type="text" id="n3">
+ 
+ <button onclick="cuatro()"> x^4 </button>
  </p>
 </body>
 </html>
