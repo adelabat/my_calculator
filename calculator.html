@@ -5,14 +5,23 @@ function cube() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 3);
 }
+function cuatro() {
+ var num = document.getElementById("n2");
+ num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
  <h1>Calculadora de Andrés Delabat Parrilla </h1>
  Number:
+ <p>
  <input type="text" id="n1">
  <p>
  <button onclick="cube()"> x^3 </button>
+ </p>
+<input type="text" id="n2">
+ <p>
+ <button onclick="cuatro()"> x^4 </button>
  </p>
 </body>
 </html>
